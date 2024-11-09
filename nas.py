@@ -2,7 +2,7 @@ from stem import Signal, CircStatus
 from stem.control import Controller
 
 # Funkcja monitorująca maksymalnie wiele zdarzeń Tor
-def monitor_tor_events(password="0122"):
+def monitor_tor_events(password="0123"):
     with Controller.from_port(port=9051) as controller:
         # Autoryzacja za pomocą hasła
         controller.authenticate(password=password)
