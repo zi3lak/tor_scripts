@@ -82,7 +82,7 @@ def search_onion_site(url, keywords):
 
 if __name__ == "__main__":
     # Ustawienie hasła do kontrolnego portu
-    control_port_password = "0122"
+    control_port_password = "0123"
 
     for site in onion_sites:
         # Przeszukiwanie strony pod kątem słów kluczowych
